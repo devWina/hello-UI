@@ -57,6 +57,5 @@ nameDiv.addEventListener('click', function (e) {
     nameDiv.style.display = 'flex';
     // reattach listeners to the newly-created input/button
     initFormListeners();
-    console.log('clicked');
   }
 });
