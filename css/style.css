@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Limelight&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+body .hidden {
+  display: none;
+}
+body .hello {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: rgb(239, 234, 234);
+}
+body .hello .text {
+  font-family: "Bitcount Prop Single", sans-serif;
+  letter-spacing: 2px;
+  font-size: 7rem;
+}
+body .hello .name-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+body .hello .name-container button {
+  padding: 1rem 0.5rem;
+  font-size: 3rem;
+  color: red;
+  border: 2px dashed red;
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+}
+body .hello .name-container button:hover {
+  background-color: red;
+  color: white;
+}
+body .hello .name-container button:active {
+  padding: 0.5rem 0.5rem;
+  background-color: red;
+  color: white;
+}
+body .hello .add__name form {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  border: 2px dashed green;
+  border-radius: 15px;
+}
+body .hello .add__name form button {
+  display: flex;
+  align-items: center;
+  color: green;
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  background: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 50%;
+  box-shadow: -5px 15px 19px -6px rgba(0, 0, 0, 0.35);
+  transition: 0.2s ease-in-out;
+}
+body .hello .add__name form button:hover {
+  box-shadow: none;
+}
+body .hello .add__name form input {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Bitcount Prop Single", sans-serif;
+  color: green;
+  border: none;
+  padding: 0.6rem;
+  width: 10rem;
+  background: none;
+}
+body .hello .add__name form input::placeholder {
+  color: grey;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+body .hello .add__name form input:focus {
+  outline: 1px solid grey;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .hello {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
